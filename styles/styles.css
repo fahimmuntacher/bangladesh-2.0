@@ -1,0 +1,331 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+/* shared style */
+
+
+.primary-btn{
+    background-color: #006A50;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.primary-btn:hover{
+    background-color: #26b692d2;
+}
+
+#section-heading{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#paragraph-style{
+    font-weight: 400;
+    font-size: 20px;
+    color:#0e0e0e96;
+    margin-bottom: 30px;
+}
+
+.card-heading{
+     font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* shared style end here */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.navbar h2{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.navbar button{
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    width: 126px;
+    height: 52px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #006A50;
+    background-color: white;
+    cursor: pointer;
+}
+.navbar button:hover{
+    background-color: #006A50;
+    color: white;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 51px;
+    margin-bottom: 80px;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+}
+
+.banner-context{
+    padding: 115px 20px 115px 60px;
+}
+.banner-context h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #0e0e0e7c;
+    margin-bottom: 16px;
+}
+.banner-context h1{
+    font-weight: bold;
+    font-size: 55px;
+    width: 650px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.banner-img{
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.bd-piller{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.piller-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 80px;}
+.pcard{
+    border: 2px solid gainsboro;
+    height: 200px;
+    width: 300px;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.pcard h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pcard p{
+    font-weight: 400;
+    font-size: 20px;
+    color:#0e0e0e5d;
+
+}
+.vision{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.vision h1{
+    font-weight: bold;
+    font-size: ;
+}
+.vision-card{
+    display: flex;
+    justify-content: space-between;
+}
+.vcard{
+    border: 2px solid gainsboro;
+    margin-bottom: 32px;
+    height: 300px;
+    width: 400px;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.yunus-quota{
+    border: 2px solid gainsboro;
+    padding: 30px;
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left 20px;
+    margin-bottom: 80px;
+}
+
+.opinion{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+      border: 1px solid gray;
+      margin-bottom: 80px;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border: 1px solid gray;
+    }
+
+    th {
+      background-color: #cce5d5;
+    }
+
+    /* tr:nth-child(even) {
+      background-color: #ce7c7c;
+    } */
+
+    select {
+      padding: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      background-color: #d7f0e3;
+      border: 2px solid #000000;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .news{
+        max-width: 1600px;
+        margin: 0 auto;
+        
+    }
+
+    .ncard{
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid gainsboro;
+        border-radius: 12px;
+        padding: 20px;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+    .ncard img{
+        border-radius: 25px;
+    }
+    .ncard h2{
+        font-weight: bold;
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+    .news-context img{
+        margin-bottom: 12px;
+    }
+    .news-context p{
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #0e0e0eb6;
+    }
+
+.donate{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.donate input{
+   
+    padding: 20px 550px;
+    font-weight: 400;
+    font-size: 20px;
+    border: 2px solid gainsboro;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.taka{
+    display: flex;
+    justify-content: space-between;
+}
+.amount{
+    border: 2px solid gainsboro;
+    padding: 30px 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.582);
+    margin-bottom: 32px;
+}
+
+.newsletter{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #C6E4D6; 
+    padding: 35px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+
+.subscribe-box {
+      display: flex;
+      margin: 0 auto;
+      width: 700px; /* You can adjust the width */
+      border: 2px solid #007855;
+      border-radius: 10px;
+      margin-top: 24px;
+      overflow: hidden;
+    }
+
+    .subscribe-box input {
+      flex: 1;
+      padding: 20px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .subscribe-box button {
+      background-color: #007855;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .subscribe-box button:hover {
+      background-color: #005f44;
+    }
+
+
+    footer{
+        text-align: center;
+        background-color: #cce5d5;
+        padding: 50px;
+    }
+
+    footer hr{
+        max-width: 800px;
+        margin: 0 auto;
+        color: #006A50;
+    }
+
+    .social-icon{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 30px;
+    }
+
+    .social-icon img{
+        cursor: pointer;
+    }
